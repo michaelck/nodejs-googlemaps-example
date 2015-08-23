@@ -1,0 +1,23 @@
+{
+  "name": "node-express-jade-googlemap-example",
+  "version": "1.0.0",
+  "description": "A simple example of a Node.js/GoogleMap webapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelck/node-express-jade-googlemap-example.git"
+  },
+  "author": "MichaelCK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelck/node-express-jade-googlemap-example/issues"
+  },
+  "dependencies": {
+    "express": "3.1.0",
+    "jade": "1.11.0"
+  },
+  "homepage": "https://github.com/michaelck/node-express-jade-googlemap-example#readme"
+}
