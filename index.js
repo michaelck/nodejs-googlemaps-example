@@ -13,4 +13,12 @@ app.get('/',function(req,res){
   res.render('layout', { title: 'Node.js / Google Maps Example', subtitle: 'with the help of the Express, Path, and Jade modules' });
 });
 
+app.get('/coffee',function(req,res){
+  res.render('coffee', { title: 'Coffee Shops in Philadelphia', subtitle: 'Node.js / Google Maps Example with the help of the Express, Path, and Jade modules' });
+});
+
+app.get('/pizza',function(req,res){
+  res.render('pizza', { title: 'Pizza Shops in Philadelphia', subtitle: 'Node.js / Google Maps Example with the help of the Express, Path, and Jade modules' });
+});
+
 app.listen(3000)

@@ -3,48 +3,56 @@
 		"shopname": "Menagerie Coffee",
 		"latitude": 39.9496666,
 		"longitude": -75.1458754,
-		"details": "Great coffee, atmosphere, and staff."
+		"details": "Great coffee, atmosphere, and staff.",
+		"website": "http://www.menageriecoffee.com/"
 	},
 	{
 		"shopname": "Old City Coffee",
 		"latitude": 39.950712,
 		"longitude": -75.144814,
-		"details": "Good for a coffee on the go. WiFi usage is limited to 1hr per purchase."		
+		"details": "Great for a coffee on the go.",
+		"website": "http://www.oldcitycoffee.com/"		
 	},
 	{
 		"shopname": "United By Blue",
 		"latitude": 39.953124,
 		"longitude": -75.143077,
-		"details": "Urban camper vibe."
+		"details": "Urban camper vibes.",
+		"website": "http://unitedbyblue.com/pages/flagship"
 	},
 	{
 		"shopname": "Elixr",
 		"latitude": 39.949462,
 		"longitude": -75.166734,
-		"details": "Good coffee. Tons of electrical outlets."
+		"details": "Good coffee. Tons of electrical outlets.",
+		"website": "http://www.elixrcoffee.com/"
 	},
 	{
 		"shopname": "Shot Tower Coffee",
 		"latitude": 39.937587,
 		"longitude": -75.153215,
-		"details": "Good coffee. Lots of light."
+		"details": "Good coffee. Lots of light.",
+		"website": "http://www.yelp.com/biz/shot-tower-coffee-philadelphia-2"
 	},
 	{
 		"shopname": "Benna's Cafe",
 		"latitude": 39.932930,
 		"longitude": -75.157639,
-		"details": "Great coffee and staff, atmosphere, & staff."
+		"details": "Great place to get some work done.",
+		"website": "https://www.facebook.com/pages/Bennas-Cafe/316526051875056"
 	},
 	{
 		"shopname": "Ultimo Coffee Bar",
 		"latitude": 39.926947,
 		"longitude": -75.171025,
-		"details": "Hand poured coffee."
+		"details": "Hand poured coffee.",
+		"website": "http://www.ultimocoffee.com/"
 	},
 	{
 		"shopname": "La Colombe Fishtown",
 		"latitude": 39.971241,
 		"longitude": -75.134246,
-		"details": "Iced coffee on draft."
+		"details": "Iced coffee on draft.",
+		"website": "http://lacolombe.com/"
 	}
 ]

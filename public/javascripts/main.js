@@ -2,17 +2,18 @@
 var MAPAPP = {};
 MAPAPP.markers = [];
 MAPAPP.currentInfoWindow;
+MAPAPP.pathName = window.location.pathname;
 
 $(document).ready(function() {
     initialize();
-    populateMarkers();
+    populateMarkers(MAPAPP.pathName);
 });
 
 //Initialize our Google Map
 function initialize() {
     var center = new google.maps.LatLng(39.9543926,-75.1627432);
     var mapOptions = {
-        zoom: 14,
+        zoom: 13,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         center: center,
     };
@@ -21,8 +22,8 @@ function initialize() {
 };
 
 // Fill map with markers
-function populateMarkers(apiLoc, fractions) {
-    apiLoc = typeof apiLoc !== 'undefined' ? apiLoc : '/data/coffee.json';
+function populateMarkers(dataType) {
+    apiLoc = typeof apiLoc !== 'undefined' ? apiLoc : '/data/' + dataType + '.json';
     // jQuery AJAX call for JSON
     $.getJSON(apiLoc, function(data) {
         //For each item in our JSON, add a new map marker
@@ -32,10 +33,11 @@ function populateMarkers(apiLoc, fractions) {
                 position: new google.maps.LatLng(this.latitude, this.longitude),
                 shopname: this.shopname,
                 details: this.details,
+                website: this.website,
                 icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png'
             });
     	//Build the content for InfoWindow
-            var content = '<h1 class="mt0"><a href="site/' + marker.shopname + '">' + marker.shopname + '</a></h1><p>' + marker.details + '</p>';
+            var content = '<h1 class="mt0"><a href="' + marker.website + '" target="_blank" title="' + marker.shopname + '">' + marker.shopname + '</a></h1><p>' + marker.details + '</p>';
         	marker.infowindow = new google.maps.InfoWindow({
             	content: content,
             	maxWidth: 400

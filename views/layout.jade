@@ -8,7 +8,9 @@ html
         header
             h1= title
             h2= subtitle
+            nav
+                p Maps of great <a href="coffee" title="Coffee Map">coffee</a> and <a href="pizza" title="Pizza Map">pizza</a> shops in Philadelphia.
         #map_canvas
         script(src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js')
         script(src='https://maps.googleapis.com/maps/api/js?&sensor=false')
-        script(src='/javascripts/main.js')
+        block content
