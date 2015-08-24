@@ -11,4 +11,7 @@
 3. Start the node app with the following command:
 
         $ node index.js
+4. Open a browser and visit the following url:
+
+        localhost:3000
 
