@@ -5,10 +5,7 @@ html,body,#map_canvas{
 	font-family: helvetica, 'helvetica neue', arial, sans-serif;
 }
 header {
-	border-bottom:2px solid #C7C7C7;
-}
-h1,h2 {
-		margin: 10px 10px;	
+	padding: 10px 10px;
 }
 
 h1 {
