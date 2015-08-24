@@ -1,2 +1,2 @@
-# node-express-jade-googlemap-example
-A simple example of a Node.js/GoogleMap webapp
+# Node.js Google Maps Example
+## with the help of the Express, Path, and Jade modules
