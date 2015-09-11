@@ -3,6 +3,8 @@
 
 This is a simple Node.js app that uses the Google Maps API to create 2 map views, each centered over Philadelphia, PA. The points on the map are created by parsing JSON documents.
 
+![screenshot1](https://michaelck.github.io/nodejs-googlemaps-example/screenshot1.png)
+
 ##Instructions for running the app
 
 0. Clone this repository.
