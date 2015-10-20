@@ -1,7 +1,7 @@
 # Node.js Google Maps Example
 **(with the help of the [Express](https://www.npmjs.com/package/express), [Path](https://www.npmjs.com/package/path), and [Jade](https://www.npmjs.com/package/jade) modules)**
 
-This is a simple Node.js app that uses the Google Maps API to create 2 map views, each centered over Philadelphia, PA. The points on the map are created by parsing JSON documents.
+This is a simple [Node.js](https://nodejs.org/en/) app that uses the [Google Maps API](https://developers.google.com/maps/) to create 2 map views, each centered over Philadelphia, PA. The points on the map are created by parsing JSON documents.
 
 ![screenshot1](https://michaelck.github.io/nodejs-googlemaps-example/screenshot1.png)
 
