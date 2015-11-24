@@ -30,7 +30,7 @@ function populateMarkers(dataType) {
         $.each(data, function(i, ob) {
             var marker = new google.maps.Marker({
                 map: map,
-                position: new google.maps.LatLng(this.latitude, this.longitude),
+                position: new google.maps.LatLng(this.location.coordinates[0], this.location.coordinates[1]),
                 shopname: this.shopname,
                 details: this.details,
                 website: this.website,
